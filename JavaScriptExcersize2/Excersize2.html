@@ -1,0 +1,31 @@
+<html>
+    <head>
+    <script type="text/javascript">
+
+        //define function display name 
+        function displayName() {
+            // get textBox value and assign value to var userName 
+            var userName  = document.getElementById("userName").value;
+
+            //set inner html of output to hello + userName
+            document.getElementById("output").innerHTML = "Hello " + userName;   
+        }
+
+
+    </script>    
+    </head>
+    <body>
+        <! -- an empty p element for us to output to -->
+
+
+            <!-- An Input to get the users names -->
+            <input  id="userName" type = "text" placeholder = "Enter Name">
+            <!-- notice the onClick attribute which runs the display name function
+                when the button is clicked -->
+            <button onClick = displayName()> Click Me </button>    
+
+
+        <p id = "output"><!-- result will be placed here --> </p>
+    </body>
+
+</html>

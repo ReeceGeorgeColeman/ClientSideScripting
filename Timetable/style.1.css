@@ -1,0 +1,17 @@
+header{
+    font-size: 16;
+    color: red;
+    background-color: rgb(204, 255, 204)
+}
+body {
+    font-family: Tahoma, Arial, sans-serif;
+    color:rgb(51, 153, 255);
+    background-color:white;
+    margin: 8px;
+
+}
+table, th, td{
+    background-color:rgb(255, 255, 204);
+    border: 1px solid rgb(51, 204, 255);
+}
+
